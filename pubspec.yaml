@@ -29,6 +29,9 @@ flutter:
     - assets/images/
     - assets/icons/
     - assets/icons/bottom_nav_icons/
+    - assets/icons/page_1_icons/
+    - assets/icons/page_2_icons/
+    - assets/icons/page_3_icons/
 
   # fonts:
   #   - family: Schyler

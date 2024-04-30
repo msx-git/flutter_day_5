@@ -52,7 +52,7 @@ class HomePage extends StatelessWidget {
               Row(
                 children: [
                   SvgPicture.asset(
-                    'assets/icons/user.svg',
+                    'assets/icons/page_1_icons/user.svg',
                     height: 50.h,
                     width: 50.w,
                   ),
@@ -77,7 +77,7 @@ class HomePage extends StatelessWidget {
                     ],
                   ),
                   const Expanded(child: SizedBox()),
-                  SvgPicture.asset('assets/icons/bell.svg')
+                  SvgPicture.asset('assets/icons/page_1_icons/bell.svg')
                 ],
               ),
 
@@ -130,7 +130,7 @@ class HomePage extends StatelessWidget {
                           ),
                         ),
                         SizedBox(width: 6.w),
-                        SvgPicture.asset('assets/icons/hidden.svg'),
+                        SvgPicture.asset('assets/icons/page_1_icons/hidden.svg'),
                       ],
                     ),
                   ],
@@ -152,7 +152,7 @@ class HomePage extends StatelessWidget {
                       child: Row(
                         children: [
                           SvgPicture.asset(
-                              'assets/icons/${iconLabel[i].toLowerCase()}.svg'),
+                              'assets/icons/page_1_icons/${iconLabel[i].toLowerCase()}.svg'),
                           SizedBox(width: 3.w),
                           Text(
                             iconLabel[i],
@@ -198,7 +198,7 @@ class HomePage extends StatelessWidget {
                               shape: BoxShape.circle,
                             ),
                             child: SvgPicture.asset(
-                              'assets/icons/${i == 0 ? 'from' : 'to'}.svg',
+                              'assets/icons/page_1_icons/${i == 0 ? 'from' : 'to'}.svg',
                             ),
                           ),
                           SizedBox(width: 15.w),
